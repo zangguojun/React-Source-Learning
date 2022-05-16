@@ -1,15 +1,15 @@
 module.exports = {
   env: {
-    browser: true,
-    es2021: true,
+    // browser: true,
+    // es2021: true,
   },
   extends: [
-    "airbnb",
-    "prettier",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "react-app",
-    "react-app/jest",
+    // "airbnb",
+    // "prettier",
+    // "eslint:recommended",
+    // "plugin:react/recommended",
+    // "react-app",
+    // "react-app/jest",
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -18,8 +18,8 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react"],
+  // plugins: ["react", "react-hooks"],
   rules: {
-    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    // "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
   },
 }
